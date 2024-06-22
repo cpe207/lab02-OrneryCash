@@ -1,0 +1,61 @@
+#experiences {
+  display: flex;
+  gap: 1em;
+  margin: 0 auto;
+  padding: 2em;
+  background-color: #1e1e2e;
+  font-size: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.exp {
+  display: flex;
+  gap: 5em;
+  margin: 0 auto;
+  padding: 2em;
+  background-color: #1e1e2e;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.exp-rev {
+  flex-direction: row-reverse;
+}
+
+.exp .desc {
+  width: 50%;
+}
+
+.exp .desc em {
+  color: #a6e3a1;
+}
+
+.exp figure {
+  width: 25%;
+}
+
+.exp figure img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.exp figure figcaption {
+  font-size: 0.8rem;
+}
+
+.exp-rev figure figcaption {
+  float: right;
+}
+
+@media only screen and (min-width: 1440px) {
+  #experiences {
+    font-size: 1.1rem;
+  }
+
+  #experiences h1 {
+    font-size: 1.3rem;
+  }
+}
