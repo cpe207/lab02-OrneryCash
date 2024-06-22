@@ -19,7 +19,7 @@
 }
 
 #skills p {
-  width: 55%;
+  width: 100%;
   margin: auto;
   float: left;
 }
@@ -29,7 +29,7 @@
   position: relative;
   background: #f3efe6;
   overflow: hidden;
-  width: 55%;
+  width: 100%;
   border-radius: 10px;
 }
 
@@ -99,6 +99,29 @@
 
   100% {
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  nav {
+    font-size: 0.85rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .meter {
+    height: 15px;
+    position: relative;
+    background: #f3efe6;
+    overflow: hidden;
+    width: 55%;
+    border-radius: 10px;
+  }
+
+  #skills p {
+    width: 55%;
+    margin: auto;
+    float: left;
   }
 }
 

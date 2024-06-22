@@ -94,12 +94,13 @@ main div {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 100%;
   gap: 2em;
 }
 
 main figure {
-  width: 30%;
+  width: 60%;
 }
 
 main figure img {
@@ -117,15 +118,9 @@ main figure img {
   color: #f38ba8;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 320px) {
   nav {
     font-size: 0.85rem;
-  }
-}
-
-@media only screen and (min-width: 425px) {
-  nav {
-    font-size: 0.9rem;
   }
 }
 
@@ -137,6 +132,10 @@ main figure img {
   main div {
     width: 95%;
     flex-direction: row;
+  }
+
+  main figure {
+    width: 25%;
   }
 }
 
@@ -153,5 +152,9 @@ main figure img {
 
   #intro {
     font-size: 1.1rem;
+  }
+
+  main figure {
+    width: 30%;
   }
 }
