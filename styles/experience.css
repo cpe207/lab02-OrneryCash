@@ -54,12 +54,6 @@
   float: right;
 }
 
-@media only screen and (min-width: 425px) {
-  nav {
-    font-size: 0.85rem;
-  }
-}
-
 @media only screen and (min-width: 768px) {
   .exp .desc {
     width: 50%;
@@ -83,8 +77,6 @@
   }
 
 }
-
-@media only screen and (min-width: 1080px) {}
 
 @media only screen and (min-width: 1440px) {
   #experiences {

@@ -102,12 +102,6 @@
   }
 }
 
-@media only screen and (min-width: 425px) {
-  nav {
-    font-size: 0.85rem;
-  }
-}
-
 @media only screen and (min-width: 768px) {
   .meter {
     height: 15px;
